@@ -1,73 +1,110 @@
-# Python for Data Science
+![Python](https://github.com/Som3a99/Python-For-Data-Science/blob/0fb5b7cc430396ca60d24e7df1077b05ef7e2cd7/pythonbasics/images/2.png)
 
-![Python for Data Science](https://img.shields.io/badge/Python-Data%20Science-blue)
 
-## Overview
+# Learn Python
 
-Welcome to the **Python for Data Science** repository! This repository is dedicated to providing resources, tutorials, and examples to help you master the use of Python in the field of data science. Whether you're a beginner looking to get started or an experienced data scientist seeking advanced techniques, you'll find valuable content here.
+Welcome to the Python section of the Learning AI repository! This part of the repository is designed to help you learn Python from the ground up. We cover everything from the basics of Python to more advanced concepts in future updates.
+
+## Purpose of This Section
+
+The main goal of this section is to provide a comprehensive guide for beginners to learn Python. It contains a detailed notebook that covers the basics of Python programming.
 
 ## Table of Contents
 
-- [Python for Data Science](#python-for-data-science)
-  - [Overview](#overview)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [Features](#features)
-  - [Installation](#installation)
-  - [Contributing](#contributing)
-- [Contact](#contact)
+- [Python Basics: A Beginner's Guide](#python-basics-a-beginners-guide)
+- [Python History and Overview](#python-history-and-overview)
+  - [History of Python](#history-of-python)
+  - [Why Learn Python?](#why-learn-python)
+  - [Python Versions](#python-versions)
+  - [How to Install Python](#how-to-install-python)
+- [Running Python Code](#running-python-code)
+  - [Interactive Mode](#interactive-mode)
+    - [IPython](#ipython)
+  - [Script Mode](#script-mode)
+- [How to Set Up Your Python Environment](#how-to-set-up-your-python-environment)
+  - [Virtual Environment](#virtual-environment)
+  - [Anaconda](#anaconda)
+  - [Jupyter Notebook](#jupyter-notebook)
+  - [Python Packages](#python-packages)
+- [The Zen of Python](#the-zen-of-python)
+- [print()](#print)
+- [Comments](#comments)
+- [Variables and Sample Data Types](#variables-and-sample-data-types)
+  - [Variables](#variables)
+    - [Variable Names](#variable-names)
+    - [Assigning Values to Variables](#assigning-values-to-variables)
+  - [Data Types](#data-types)
+    - [Strings](#strings)
+    - [Numbers](#numbers)
+      - [Integers](#integers)
+      - [Floats](#floats)
+    - [Booleans](#booleans)
+    - [Built-in Functions](#built-in-functions)
+    - [type() built-in function](#type-built-in-function)
+    - [Getting Input from the User](#getting-input-from-the-user)
+    - [Casting](#casting)
+    - [dir() built-in function](#dir-built-in-function)
+  - [Python Sequence Data Types (Iterable)](#python-sequence-data-types-iterable)
+    - [Python Ordered Sequences](#python-ordered-sequences)
+      - [Lists (Mutable)](#lists-mutable)
+      - [Tuples (Immutable)](#tuples-immutable)
+      - [Strings (Immutable)](#strings-immutable)
+    - [Unordered Sequences](#unordered-sequences)
+      - [Sets (Immutable)](#sets-immutable)
+      - [Dictionaries (Mutable)](#dictionaries)
+- [Functions](#functions)
+  - [Anonymous Functions](#anonymous-functions)
+  - [Global Vs. Local Variables](#global-vs-local-variables)
+  - [Generators](#generators)
+- [Classes](#classes)
+  - [Creating and Using a Class](#creating-and-using-a-class)
+  - [The `__init__()` Method](#the-init-method)
+  - [Inheritance](#inheritance)
+    - [The `__init__()` Method for a Child Class](#the-init-method-for-a-child-class)
+  - [Importing Classes](#importing-classes)
+  - [Decorators](#decorators)
+    - [Namespaces and Scope in Python](#namespaces-and-scope-in-python)
+    - [Decorating Classes](#decorating-classes)
+  - [Public, Protected, and Private Attributes](#public-protected-and-private-attributes-in-python)
+- [Modules, Packages, Libraries, and Python Frameworks](#modules-packages-libraries-python-frameworks)
+  - [Modules](#modules)
+  - [Packages](#packages)
+    - [Installing Packages](#installing-packages)
+  - [Libraries](#libraries)
+  - [Python Frameworks](#python-frameworks)
+  - [Python Standard Library](#python-standard-library)
+    - [Operating System Interface](#operating-system-interface)
+    - [File Wildcards](#file-wildcards)
+    - [Command Line Arguments](#command-line-arguments)
+    - [Mathematics](#mathematics)
+    - [Date and Time](#date-and-time)
+    - [Data Compression](#data-compression)
+    - [Output Formatting](#output-formatting)
+    - [Tools for Working with Lists](#tools-for-working-with-lists)
+    - [Decimal Floating Point Arithmetic](#decimal-floating-point-arithmetic)
+  - [Python Linting](#python-linting)
+- [Typing](#typing)
+- [Dealing with Files](#dealing-with-files)
+- [Error Handling](#error-handling)
+  - [Exceptions](#exceptions)
+- [Storing Data with JSON](#storing-data)
+- [Testing Your Code](#testing-your-code)
+- [Regular Expressions](#regular-expressions)
+  - [Example of Using Regular Expressions](#example-of-using-regular-expressions)
+- [Conclusion](#conclusion)
+- [References](#references)
+  - [Books](#books)
+  - [GitHub Repositories](#github-repositories)
+  - [Online Resources](#online-resources)
 
-## Introduction
+## Future Updates
 
-Data science is a rapidly growing field that combines statistical analysis, data visualization, and machine learning to extract insights and knowledge from data. Python is one of the most popular programming languages for data science due to its simplicity, extensive libraries, and strong community support.
+In the future, we plan to add advanced notebooks covering more complex Python topics to help you further your Python knowledge.
 
-This repository covers key topics in data science using Python, including:
-- Data analysis and manipulation with Pandas
-- Data visualization with Matplotlib and Seaborn
-- Machine learning with Scikit-learn
-- Statistical analysis
-- Data preprocessing
-- And more!
+## About the Author
 
-## Features
+This repository is maintained by [Mohamed Ismail](https://x.com/E99Mohamed). I am a Senior Student in Communication and Electronics Engineering, studying Data Science and Engineering, Software Engineering at Holberton School, and Machine Learning Engineering at the Digital Egypt Pioneers Initiative (DEPI). I am passionate about Machine Learning Engineering and have experience with Python, data science, and backend development.
 
-- **Comprehensive Tutorials**: Step-by-step guides covering various data science topics.
-- **Code Examples**: Practical examples to illustrate key concepts.
-- **Projects**: Real-world projects to apply your knowledge.
-- **Resources**: Links to additional resources for further learning.
+Connect with me on [LinkedIn](https://www.linkedin.com/in/mohamed-ismail99) and [X](https://x.com/E99Mohamed) and follow me on [GitHub](https://github.com/Som3a99).
 
-## Installation
-
-To get started with the code examples and projects in this repository, follow these steps:
-
-1. **Clone the Repository**:
-   ```sh
-   git clone https://github.com/Som3a99/Python-For-Data-Science.git
-   cd Python-For-Data-Science
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute, please follow these steps:
-
-1. **Fork the repository**.
-2. **Create a new branch**:
-   ```sh
-   git checkout -b feature-branch
-3. **Make your changes** and commit them:
-   ```sh
-    git commit -m 'Description of your changes'
-4. **Push to the branch**:
-5. **Submit a pull request**.
-6. **Create an issue** to request a review.
-7. **Get your changes merged**.
-8. **Celebrate** - your contribution is now part of this repository!
-
-# Contact
-
-If you have any questions or suggestions, feel free to reach out:
-
-- **Mohamed Ismail**
-  - [LinkedIn](https://www.linkedin.com/in/mohamed-ismail/)
-  - [Twitter](https://x.com/E99Mohamed)
-
-Happy coding!
+Feel free to reach out if you have any questions or suggestions!
